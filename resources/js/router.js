@@ -6,7 +6,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         { path: "/", name: "home", component: Start },
-        { path: "/:notFound(.*)", component: NotFound },
+        // { path: "/:notFound(.*)", component: NotFound },
     ],
 });
 
